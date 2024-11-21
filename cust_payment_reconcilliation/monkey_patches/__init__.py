@@ -1,0 +1,3 @@
+from erpnext.accounts.doctype.payment_reconciliation.payment_reconciliation import PaymentReconciliation
+from advance_payment_reconciliation.overrides.custom_payment_reconcilliation import reconcile_allocations
+PaymentReconciliation.reconcile_allocations = reconcile_allocations
